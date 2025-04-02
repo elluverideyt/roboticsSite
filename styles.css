@@ -1,0 +1,88 @@
+/* Modern Dark Theme with Purple Undertones */
+body {
+    background-color: #1f1e33;
+    color: #e0e0ff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #8a7cff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b3a6ff;
+    text-decoration: underline;
+}
+
+header {
+    background-color: #00102e;
+    color: #e0e0ff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #8a7cff;
+}
+
+button {
+    background-color: #8a7cff;
+    color: #1f1e33;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #b3a6ff;
+}
+
+input, textarea {
+    background-color: #2a2940;
+    color: #e0e0ff;
+    border: 1px solid #8a7cff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #b3a6ff;
+}
+
+footer {
+    background-color: #00102e;
+    color: #e0e0ff;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #8a7cff;
+}
+
+.card {
+    background-color: #2a2940;
+    color: #e0e0ff;
+    border: 1px solid #8a7cff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8a7cff;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #b3a6ff;
+}
