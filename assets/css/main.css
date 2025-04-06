@@ -4139,3 +4139,36 @@ input, select, textarea {
 					}
 
 	}
+
+		/* Carousel overrides for .image spans inside #carousel */
+		#carousel .image {
+			border-radius: 0 !important;
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+	
+		/* Remove the overlay if it’s not needed (or adjust it as necessary) */
+		#carousel .image:before {
+			content: none;
+		}
+	
+		/* Ensure images fill the container without border-radius */
+		#carousel .image img {
+			border-radius: 0 !important;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			/* Ensures the image covers the area without distortion */
+			display: none;
+			/* Hidden by default; only the active one is shown */
+		}
+	
+		/* Display the active image */
+		#carousel .image.active img {
+			display: block;
+		}
