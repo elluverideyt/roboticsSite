@@ -26,6 +26,17 @@
 	display: block;
 }
 
+.icon img {
+	width: 50px;
+	/* Adjust as needed */
+	height: 50px;
+	/* Adjust as needed */
+	border-radius: 50%;
+	/* Makes the image circular */
+	object-fit: cover;
+	/* Ensures the image covers the area */
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
