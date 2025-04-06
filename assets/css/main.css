@@ -4251,18 +4251,5 @@ body.is-touch #banner {
 		border-left: 0;
 		display: block;
 		margin: 0;
-		padding: 0;
-	}
-
-}
-
-.icon img {
-	width: 100px;
-	/* Adjust as needed */
-	height: 100px;
-	/* Adjust as needed */
-	border-radius: 50%;
-	/* Makes the image circular */
-	object-fit: cover;
-	/* Ensures the image covers the area */
-}
+		}
+		}
